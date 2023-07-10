@@ -1,0 +1,38 @@
+h1
+{
+    background-color: rgb(24, 24, 24);color: rgb(142, 185, 202);
+    padding: 12px;
+}
+h2
+{
+    
+}
+a:link{
+    text-decoration:none;
+    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
+}
+a:visited{
+    text-decoration:none;
+    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
+}
+a:hover{
+    text-decoration:none;
+    background-color: rgb(71, 71, 71);color: rgb(167, 167, 167);
+}
+
+h3
+{
+    
+}
+a:link{
+    text-decoration:none;
+    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
+}
+a:visited{
+    text-decoration:none;
+    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
+}
+a:hover{
+    text-decoration:none;
+    background-color: rgb(71, 71, 71);color: rgb(167, 167, 167);
+}
