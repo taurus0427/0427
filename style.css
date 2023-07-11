@@ -1,5 +1,8 @@
+
+
 h1
 {
+    font-style:  ;font-weight: bold;
     background-color: rgb(24, 24, 24);color: rgb(142, 185, 202);
     padding: 12px;
 }
@@ -7,32 +10,64 @@ h2
 {
     
 }
-a:link{
-    text-decoration:none;
-    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
-}
-a:visited{
-    text-decoration:none;
-    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
-}
-a:hover{
-    text-decoration:none;
-    background-color: rgb(71, 71, 71);color: rgb(167, 167, 167);
-}
 
 h3
 {
     
 }
-a:link{
-    text-decoration:none;
-    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
+
+
+nav > ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
 }
-a:visited{
-    text-decoration:none;
-    background-color: rgb(71, 71, 71);color: rgb(240, 240, 240);
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
 }
-a:hover{
-    text-decoration:none;
-    background-color: rgb(71, 71, 71);color: rgb(167, 167, 167);
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav a:hover {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    
+    
+    
+
+}
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.hr-double {
+    border: 0;
+    border-top: 10PX double;
+    color: black;
+}
+
+.hr-solid-content {
+    color: black;
+    border: 1px;
+    font-size: 30px;
+    padding: 1em 0;
+    position: relative;
+}
+
+.hr-solid-content::before {
+    content: attr(data-content);
+    position: absolute;
+    padding: 0 1ch;
+    line-height: 1PX;
+    border: solid #d0d0d5;
+    border-width: 0 99vw;
+    width: fit-content;
+    /*for不支持fit-cont瀏覽器*/
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
 }
